@@ -1,8 +1,82 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  color: #00B7FF;
+/* Navbar */
+.navbar-custom {
+  height: 55px;
+  background: linear-gradient(90deg, #1e3d2f, #6aa874);
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.left-group {
+  display: flex;
+  align-items: center;
+  gap: 60px; /* controla distância entre RP e botões */
+}
+
+/* Logo */
+.logo {
+  margin-left: 16px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 6px; 
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 0 10px;
+}
+
+
+/* Busca */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 3px 10px;
+  width: 300px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 13px;
+}
+
+/* Ícones */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-right: 30px; 
+  color: white;
+}
+
+.icon {
+  position: relative;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
