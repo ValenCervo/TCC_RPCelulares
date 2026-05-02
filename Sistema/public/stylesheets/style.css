@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-/* Navbar */
+/* NAVBAR 1 - Loja */
 .navbar-custom {
   height: 55px;
   background: linear-gradient(90deg, #1e3d2f, #6aa874);
@@ -44,7 +44,6 @@ body {
   padding: 0 10px;
 }
 
-
 /* Busca */
 .search-box {
   display: flex;
@@ -79,4 +78,307 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
+  color: #f2f2f2;
+}
+
+
+/* NAVBAR 2 - LOGIN/CADASTRO */
+.navbar-loginCadastro {
+  height: 55px;
+  background: linear-gradient(90deg, #1e3d2f, #6aa874);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navbar-loginCadastro .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-loginCadastro .nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-loginCadastro .nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 12px;
+}
+
+.navbar-loginCadastro .icon {
+  color: white;
+  font-size: 22px;
+}
+
+.login-container {
+  display: flex;
+  height: calc(100vh - 55px);
+}
+
+/* LADO ESQUERDO */
+.left-side {
+  flex: 1;
+  background: #a2cf9e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.left-side h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 30px;
+  margin-top: -28px;
+}
+
+.left-side p {
+  max-width: 300px;
+}
+
+/* Ícone círculo */
+.icon-circle {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle i {
+  font-size: 90px;
+  color: #234228;
+}
+
+/* LADO DIREITO */
+.right-side {
+  flex: 1;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side h2 {
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+
+}
+
+/* Inputs */
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 280px;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  margin-left: 8px;
+  
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-login {
+  width: 280px;
+  background: #3e7f57;
+  color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+/* Texto */
+.register {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.social-text {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Redes - icones */
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  font-size: 28px;
+  justify-content: center;
+}
+
+.bi-facebook {
+  color: #1877f2;
+}
+
+.bi-apple {
+  color: black;
+}
+
+.bi-google {
+  width: 32px;
+  height: 32px;
+ margin-bottom: 3px;
+}
+
+
+
+/* CADASTRO */
+.cadastro-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+.cadastro-container h2 {
+  font-size: 22px; 
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Caixa principal */
+.cadastro-box {
+  background: #a2cf9e;
+  padding: 25px;
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/* Título */
+.cadastro-box h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Linhas */
+.row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Input */
+.input-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 6px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* INPUT OCUPA METADE EXATA (VERIFICAR COM PROF) */
+.row .input-box {
+  flex: 1; 
+}
+
+/* Input (NOME) */
+.input-box.full {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* INPUT TEXTO */
+.input-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 8px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.senha-box i:last-child {
+  cursor: pointer;
+}
+
+/* Data */
+.data-label {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Container da data */
+.data-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Select */
+.data-row select {
+  flex: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-login {
+  width: 100%;
+  background: #3e7f57;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.login-link {
+  margin-top: 5px;
+  font-size: 13px;
 }
